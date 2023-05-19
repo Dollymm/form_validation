@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="formDesign">
+    <form action="#"  name="myform" onsubmit="return formValidation()" method="post">
+    <h1>Hello User</h1>
+    
+        <div class="formText" id="name">
+            Name:<input type="text" name="fName"><span class="formerror"></span>
+        </div>
+        <div class="formText" id="gmail">
+            Gmail:<input type="gamil" name="fGmail"><b><span class="formerror"></span></b>
+        </div>
+        <div class="formText" id="password">
+            password:<input type="current-password" name="fpassword"><b><span class="formerror"></span></b>
+        </div>
+        <div class="formText" id="cpass">
+            confirm pass:<input type="cpass" name="fcpass"><b><span class="formerror"></span></b>
+        </div>
+        <div class="formText" id="phone">
+            Phone no:<input type="number" name="fphone"><b><span class="formerror"></span></b>
+            
+        </div>
+        <div class="formText">
+           <input type="submit" name="submit" value="submit" class="btn">
+            
+        </div>
+        
+    </form>
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
